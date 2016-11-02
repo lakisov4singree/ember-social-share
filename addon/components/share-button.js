@@ -3,11 +3,10 @@ import layout from '../templates/components/share-button';
 
 export default Ember.Component.extend({
   layout: layout,
-  tagName: 'button',
+  tagName: 'div',
   title: '',
   text: '',
   image: '',
-  classNameBindings: ['adaptive:adaptive-button'],
   adaptive: true,
 
   getCurrentUrl() {
